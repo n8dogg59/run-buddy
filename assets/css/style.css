@@ -112,7 +112,6 @@ section {
     color: #024e76;
     padding: 20px;
     border: solid 3px #024e76;
-    width: 40%;
     margin: 3.5%;
 }
 
@@ -138,7 +137,6 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
-}
 }
 
 .form-input {
