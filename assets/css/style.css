@@ -382,29 +382,29 @@ section {
   header nav ul li a {
     font-size: 20px;
   }
-  
+
   footer h2, footer div {
     text-align: center;
     width: 100%;
   }
 
   .hero-cta, .hero-form {
-    width: 100%
+    width: 100%;
   }
-
+  
   .hero-cta {
     text-align: center;
   }
-  
+
   .section-title {
     width: 80%;
   }
-
+  
   .trainer {
     flex: 0 70%;
   }
-
-  .contact-info iframe {
+  
+  .contact-info iframe{
     flex: 1 100%;
   }
 }
@@ -434,7 +434,7 @@ section {
   }
 
   .step-text {
-    flex: 100%;
+    flex: 100%;  
   }
 }
 
@@ -457,7 +457,7 @@ section {
   }
 
   .contact-info {
-    text-align: left;
+    text-align: center;
   }
 
   .contact-info > * {
