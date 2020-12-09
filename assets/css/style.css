@@ -410,7 +410,7 @@ section {
   content: "";
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(252,225, 56, 0.3), var(--secondary-color));
+  background: linear-gradient(rgba(252, 225, 56, 0.3), var(--secondary-color));
   position: absolute;
   top: 0;
   left: 0;
@@ -439,7 +439,6 @@ section {
 .trainer:hover .trainer-img h3, .trainer:hover .trainer-img h4 {
   top: 0;
 }
-
 /* TRAINER STYLES END */
 
 /* SERVICE STYLES START */
@@ -683,6 +682,14 @@ section {
     writing-mode: unset;
     grid-column: 1 / -1;
     grid-row: -1;
+  }
+
+  .trainer-img h3, .trainer-img h4, .trainer-img::after {
+    display: none;
+  }
+
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
   }
 }
 
